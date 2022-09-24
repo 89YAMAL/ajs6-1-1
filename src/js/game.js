@@ -1,6 +1,6 @@
 export default function orderByProps(obj, arr) {
   const arrSortFirst = [];
-  for (let i = 0; arr.length; i += 1) {
+  for (let i = 0; i < arr.length; i += 1) {
     if (arr[i] in obj) {
       arrSortFirst.push({
         key: arr[i],
